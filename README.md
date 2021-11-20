@@ -1,0 +1,1 @@
+# lojanft_basic_project
