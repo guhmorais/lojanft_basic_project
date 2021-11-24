@@ -1,0 +1,125 @@
+/* font importing */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/* reseting css rules */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --orange: #f78b00;
+  --blue: #00285f;
+  --gray: #ededed;
+  --red: #dd1616;
+  --violet:#7c00a1;
+  --black: #000;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+  height: 500px;
+  background: var(--violet); 
+}
+
+.content {
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;    
+}
+
+nav {
+    width: 100%;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand {
+    font-size: 29px;
+    color: var(--gray);
+    cursor: pointer; 
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px;
+    margin-left: 7px;
+    cursor:pointer;
+}
+
+nav ul li a {
+    color:#ffffff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ffffff83;
+}
+
+nav ul button {
+    color: #ffe3f9;     
+    border: 1px solid #ffffff;
+    background: transparent;
+    padding: 8px 40px;
+    cursor: pointer;
+    margin-left: 20px;
+    font-weight: bold;
+    border-radius: 20px;      
+}
+
+nav ul button:hover {
+    transition: background, color 0.7s;
+    background: #ffffff;
+    color: #531a53;
+}
+/* header block com background possível */
+.content .header-block {    
+    max-width: 1000px;
+    min-width: 300px;
+    height: 450px;
+    background: #0004ff60;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: rgba(0, 0, 0, 0.5);
+
+    position: relative;
+    z-index: 10;
+    padding: 10px;    
+
+/* Background em uso */
+
+    background-image:url(./img/nft2.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+.header-block img {
+    width: 60%;
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+}
+
+
