@@ -92,12 +92,12 @@ nav ul button:hover {
     background: #ffffff;
     color: #531a53;
 }
-/* header block com background possível */
+/* header block com background em interação com img */
 .content .header-block {    
     max-width: 1000px;
     min-width: 300px;
     height: 450px;
-    background: #0004ff60;
+    background: #170d2b;    ;
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.5);
     -webkit-box-shadow: rgba(0, 0, 0, 0.5);
@@ -107,19 +107,34 @@ nav ul button:hover {
     z-index: 10;
     padding: 10px;    
 
-/* Background em uso */
+/* Background img em uso */
 
-    background-image:url(./img/nft2.jpg);
+    background-image:url(./img/nft5.jpg);
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: center;
+    background-position:right;
 }
 
-.header-block img {
-    width: 60%;
+.header-block .text {
     position: absolute;
-    right: 2%;
-    bottom: 2%;
+    bottom: 50%;
+    left: 10%;
+}
+
+.header-block .text h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: right;
+    transform: translateX(-20px);
+    transition: transform 0.5s;
+}
+
+.header-block .text p {
+    max-width: 200px;
+    color: #ffffff;
+    text-align:right;
+    transform: translateX(-20px);
+    transition: transform 0.4s;
 }
 
 
