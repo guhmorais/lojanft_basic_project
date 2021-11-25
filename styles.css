@@ -137,4 +137,133 @@ nav ul button:hover {
     transition: transform 0.4s;
 }
 
+/* catálogo de NFTs */
 
+section .catalog {
+    width: 100vw;
+    padding: 100px;
+    }
+
+section .filter-card {
+        width: 980px;
+        height: 150px;
+        background: #9c689c;
+        border-radius: 8px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+.search-input {
+    width: 700px;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+}
+
+.search-button {
+    width: 150px;
+    height: 50px;
+    border: 1px transparent #ededed;
+    border-radius: 3px;
+    margin-left: 5px;
+    background: #7c00a1;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: 0.3s ease;
+}
+
+.search-button:hover {
+    background: #ffffff;
+    color: #7c00a1;
+}
+
+.title-wrapper-catalog {
+    margin-top: 100px;
+    padding-bottom: 20px;
+}
+
+section .card-wrapper {
+    max-width: 1000px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    grid-gap:  30px;
+    padding-top: 50px;
+}
+
+section .card-item {
+    height: 400px;
+    background: #ebbcec93;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: auto;
+    justify-content:space-around;
+}
+
+.card-content {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-item h4 {
+    width: 90%;
+}
+
+.card-item p {
+    width: 90%;
+    font-style: italic;
+    color: #0d9109
+}
+
+.card-item button {
+    width: 90px;
+    padding: 15px 0px;
+    border: none;
+    background: #7c00a1;
+    border-radius: 4px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-bottom: 15px;
+}
+
+.card-item button:hover {
+    background: #06f32e94;
+    color: #036608;
+}
+
+/* about */
+
+.about {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 10px;
+}
+
+.about-content {
+    max-width: 1000px;
+    min-width: 300px;
+    height: 600px;
+    background: crimson;
+    margin:  0 auto;
+    border-radius: 8px;
+    z-index: 10;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;  
+}
