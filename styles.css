@@ -294,4 +294,187 @@ section .card-item {
     color: #ffffff;
   }
 
+
+  /* features */
+
+  .partnes {
+    width: 100%;
+    height: 100%;
+    background:#d1b7d1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+  }
   
+  .title-wrapper-partnes {
+    padding: 20px 0px;
+  }
+  
+  .partnes-card-block {
+    max-width: 1000px;
+    min-width: 300px;
+    height: 600px;
+    background: #520552;
+    margin: 0 auto;
+    border-radius: 8px;
+    z-index: 10;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+    grid-gap: 30px;
+  }
+  
+  .partnes-card-item {
+    max-width: 420px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px transparent;
+    background: #9c0d9cf3;
+    border-radius: 4px;
+  }
+   
+  .partnes-card-item img {
+    width: auto;
+    height: 30%;
+  }
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 250px;
+  }
+  
+  footer .main {
+    width: 100%;
+    height: 200px;
+    background:#3d1f4b;
+    padding: 20px 10px;
+  }
+  
+  .footer-links {
+    max-width: 1000px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .footer-company,
+  .footer-wallet,
+  .footer-contact,
+  .footer-social {
+    color: white;
+    height: 100%;
+    min-height: 100px;
+  }
+  
+  .footer-links h4 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links {
+    margin-bottom: 8px;
+  }
+  
+  .main .footer-social img {
+    width: 32px;
+    height: 32px;
+  }
+  
+  footer .last {
+    width: 100%;
+    height: 50px;
+    background: var(--violet);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Responsive adjustments */
+
+@media (max-width: 576px) {
+  nav ul li {
+    display: none;
+  }
+
+  .header-block img {
+    width: 70%;
+    position: absolute;
+    right: 16%;
+    top: 30%;
+  }
+
+  .header-block .text {
+    position: absolute;
+    bottom: 10%;
+    left: 15;
+  }
+
+  section .filter-card {
+    width: 390px;
+    padding: 0px 10px;
+  }
+
+  .search-input {
+    max-width: 700px;
+    min-width: 240px;
+  }
+
+  .search-button {
+    max-width: 150px;
+    min-width: 80px;
+  }
+
+  .about {
+    margin-top: 100px;
+  }
+
+  .title-wrapper-about {
+    margin-bottom: 20px;
+  }
+  .about-content {
+    flex-direction: column;
+    height: 100%;
+  }
+  .left {
+    display: none;
+  }
+  .right {
+    width: 90%;
+  }
+
+  .right p {
+    width: 100%;
+    margin: 0px;
+    text-align: left;
+  }
+
+  .features {
+    height: 100%;
+  }
+
+  .feature-card-block {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer {
+    height: 100%;
+  }
+
+  footer .main {
+    height: 100%;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    padding-left: 10%;
+  }
+}

@@ -1,1 +1,1 @@
-# lojanft_basic_project
+# Projeto Mercado NFT
