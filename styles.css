@@ -251,19 +251,47 @@ section .card-item {
     align-items: center;
     justify-content: center;
     padding: 50px 10px;
-}
-
-.about-content {
+  }
+  
+  .about-content {
     max-width: 1000px;
     min-width: 300px;
     height: 600px;
-    background: crimson;
-    margin:  0 auto;
+    background: #532151;
+    margin: 0 auto;
     border-radius: 8px;
     z-index: 10;
-    padding: 10px;
+    padding: 19px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;  
-}
+    justify-content: space-between;
+    background-image: url(./img/nftabout2.jpg);
+  }
+    
+  .right {
+    width: 37%;
+    height: 120%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 10%;
+  }
+  
+  .right h3 {
+    text-align: center;
+    width: 90%;
+    margin-bottom: 20px;
+    color: #4ffa00;
+  }
+  
+  .right p {
+    max-width: 90%;
+    font-size: 1em;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  
